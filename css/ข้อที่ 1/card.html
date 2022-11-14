@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .card {
+        display: inline-block;
+        box-shadow: 4px 8px 8px silver;
+        width: 300px;
+        border-radius: 5px;
+        margin: 5px;
+        background-color: darkslategrey;
+        color: white;
+      }
+      img {
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+        margin: 0px;
+      }
+      .container {
+        padding: 2px 16px;
+        text-align: center;
+      }
+      .container h4 {
+        /* margin-top: 12px; */
+        margin-bottom: 8px;
+      }
+      .container p {
+        margin-bottom: 12px;
+      }
+    </style>
+    <title>My Card</title>
+  </head>
+  <body>
+    <h2>Image Gallery Cards</h2>
+
+    <div class="card">
+      <img src="https://picsum.photos/seed/100/250" />
+      <div class="container">
+        <h4>Nice Picture</h4>
+        <p>A beautiful picture</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/seed/200/250" />
+      <div class="container">
+        <h4>Nice Picture</h4>
+        <p>A beautiful picture</p>
+      </div>
+    </div>
+  </body>
+</html>
