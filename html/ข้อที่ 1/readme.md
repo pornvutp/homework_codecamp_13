@@ -1,5 +1,9 @@
 # [HTML] Homework #1
 
+#### Prepared by Pornvut Pipatanadejsak
+
+#### CodeCamp Online #13
+
 ## 1. สร้างหน้า index.html เป็น homepage
 
 - มีภาพที่แสดงความเป็นตัวเอง และ motto ประจำตัว
